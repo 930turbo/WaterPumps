@@ -21,9 +21,10 @@ What things you need to install our data
 
 For this project, our team used data from Taarifa and the Tanzanian Ministry of Water to predict which water pumps in a set region are functional, which need repairs, and which are completely inoperational. By using this data, we can make reccomendations of which water pumps need to be serviced to maintain maximum output for the region. 
 
-### Reading the Chart
+### Reading Our Charts
 
-
+-
+-
 
 ## Versioning
 
