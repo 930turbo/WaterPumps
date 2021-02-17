@@ -11,10 +11,10 @@ These instructions will get you a copy of out data sets up and running on your m
 What things you need to install our data
 
 ```
-1. ggplot2
-2. pandas
-3. pandas_datareader
-4. Jupyter
+1. pandas
+2. pandas_datareader
+3. Jupyter
+4. VSC
 ```
 
 ## Project Goal
