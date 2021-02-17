@@ -3,6 +3,10 @@ import pandas as pd
 import os
 import glob
 
+#------------------------#
+# GENERATE CSV - UNORGANIZED DATA
+#------------------------#
+
 # using glob we match the pattern name 'csv' to save the list of file names as the variable 'csvfile'
 extension = 'csv'
 csvfile = [i for i in glob.glob('*.{}'.format(extension))]
@@ -11,6 +15,10 @@ csvfile = [i for i in glob.glob('*.{}'.format(extension))]
 combined_csv = pd.concat([pd.read_csv(f) for f in csvfile ])
 # now export to csv
 combined_csv.to_csv( "combineddata.csv", index=False, encoding='utf-8-sig')
+
+#------------------------#
+# ORGANIZED TERMINAL DATA
+#------------------------#
 
 # generate data frames to view data in terminal
 df = pd.read_csv ('testset.csv')
