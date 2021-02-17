@@ -1,4 +1,4 @@
-# import statements
+# imports
 import pandas as pd
 import os
 import glob
@@ -42,3 +42,8 @@ print(df3)
 #         print(line)                                     # Line = Rows in CSV file
 #         if a in line:                                   # Checks to see if string we are manually searching for is in the row
 #             print("String found in row of csv")
+
+#----------------#
+# GENERATE GRAPHS
+#----------------#
+
